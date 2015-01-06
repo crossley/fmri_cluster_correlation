@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = fmri_cluster_correlation; LANGUAGE = ObjC; SUPERCLASS = NLPlugin; }, 
+        {
+            ACTIONS = {
+                abortInteractiveSetup = id; 
+                cancelOperation = id; 
+                doInteractiveProcessing = id; 
+                showPluginHelp = id; 
+            }; 
+            CLASS = NLPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                pluginSheet = NSPanel; 
+                progressIndicator = NSProgressIndicator; 
+                progressWindow = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

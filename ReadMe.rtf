@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc
+
+\f0\b\fs24 \cf0 NeuroLens Plugin Kit
+\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+This package installs an Xcode template that allows you to create a blank NeuroLens plugin from the New Project... menu.  Note that the project name can contain spaces and should describe the operation performed by the plugin, as this string will be propagated to menus and help files.  For example 'Spatial Smoothing' would be a good project name, but 'Spatial Smoothing Plugin' would not.\
+\
+The new plugin project will implement a basic plugin with a simple GUI and skeletal help files.  You can add processing functionality by editing the 'run' method in the .m file in the Classes group.  User-configurable parameters can be added by declaring these as instance variables in the .h file and adding GUI elements to the .nib file in interface builder.  Interface builder will then allow you to 'bind' the elements to your instance variables.  The plugin is implemented in Objective-C, but you can use flat C where needed (e.g. in the run method) to implement your functionality.\
+\
+Building the new plugin will create a bundle in\
+\
+~/Library/Application Support/NeuroLens/PlugIns/\
+\
+The next time NeuroLens is launched it should discover your plugin, which will then be available under the Plugins menu.\
+\
+You need to have the current version of the Apple Developer tools installed (Xcode 2.0, which requires MacOSX Tiger).  These can be obtained free from Apple at http://developer.apple.com/tools/xcode/\
+\
+The installer will add files at the following location:\
+\
+/Library/Application Support/Developer/3.0/Xcode/Project Templates/NeuroLens/NeuroLens Plugin/\
+\
+You can delete the 'NeuroLens Plugin' folder to remove the template.\
+\
+This template is compatible with NeuroLens version 1.6.3 and higher.\
+\
+}

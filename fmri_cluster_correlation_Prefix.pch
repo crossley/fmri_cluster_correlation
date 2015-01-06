@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'fmri_cluster_correlation' target in the 'fmri_cluster_correlation' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

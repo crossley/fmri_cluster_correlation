@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A4874450701172B00DD4D4E /* fmri_cluster_correlation Help in Resources */ = {isa = PBXBuildFile; fileRef = 8A4874340701172B00DD4D4E /* fmri_cluster_correlation Help */; };
+		8A85F1D306FE5F3000A58E61 /* fmri_cluster_correlation.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8A85F1D106FE5F3000A58E61 /* fmri_cluster_correlation.nib */; };
+		8A95359406FC8A5500DB9ABB /* fmri_cluster_correlation.h in Resources */ = {isa = PBXBuildFile; fileRef = 8A95359206FC8A5500DB9ABB /* fmri_cluster_correlation.h */; };
+		8A95359506FC8A5500DB9ABB /* fmri_cluster_correlation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A95359306FC8A5500DB9ABB /* fmri_cluster_correlation.m */; };
+		8A97B007070306A5005D8195 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8A97B006070306A5005D8195 /* ReadMe.rtf */; };
+		8A98C8D50A1CD8590040A400 /* NLMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98C8D30A1CD8590040A400 /* NLMatrix.framework */; };
+		8A98C8D60A1CD8590040A400 /* NLPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A98C8D40A1CD8590040A400 /* NLPlugin.framework */; };
+		8AA25D0206FE8CBD00BEE6B2 /* fmri_cluster_correlation.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D5B49B6048680CD000E48DA /* fmri_cluster_correlation.plugin */; };
+		8AC7180E06FD263B00AE869B /* fmri_cluster_correlation_Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 8AC7180D06FD263B00AE869B /* fmri_cluster_correlation_Prefix.pch */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		E7BB6D6412A5996E0029D384 /* vecLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7BB6D6312A5996E0029D384 /* vecLib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8AA25D0106FE8CB600BEE6B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(HOME)/Library/Application Support/NeuroLens/PlugIns";
+			dstSubfolderSpec = 0;
+			files = (
+				8AA25D0206FE8CBD00BEE6B2 /* fmri_cluster_correlation.plugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8A4874350701172B00DD4D4E /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = "English.lproj/fmri_cluster_correlation Help"; sourceTree = "<group>"; };
+		8A85F1D206FE5F3000A58E61 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/fmri_cluster_correlation.nib; sourceTree = "<group>"; };
+		8A95359206FC8A5500DB9ABB /* fmri_cluster_correlation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fmri_cluster_correlation.h; sourceTree = "<group>"; };
+		8A95359306FC8A5500DB9ABB /* fmri_cluster_correlation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = fmri_cluster_correlation.m; sourceTree = "<group>"; };
+		8A97B006070306A5005D8195 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		8A98C8D30A1CD8590040A400 /* NLMatrix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NLMatrix.framework; sourceTree = SOURCE_ROOT; };
+		8A98C8D40A1CD8590040A400 /* NLPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NLPlugin.framework; sourceTree = SOURCE_ROOT; };
+		8AC7180D06FD263B00AE869B /* fmri_cluster_correlation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fmri_cluster_correlation_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* fmri_cluster_correlation.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fmri_cluster_correlation.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BB6D6312A5996E0029D384 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = System/Library/Frameworks/vecLib.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				8A98C8D50A1CD8590040A400 /* NLMatrix.framework in Frameworks */,
+				8A98C8D60A1CD8590040A400 /* NLPlugin.framework in Frameworks */,
+				E7BB6D6412A5996E0029D384 /* vecLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* fmri_cluster_correlation */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				8AC7180906FD262800AE869B /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+				8AC9C33006FE60D3002BF388 /* Resources */,
+				8A97B00307030686005D8195 /* Documentation */,
+			);
+			name = fmri_cluster_correlation;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+				8A1AA30606FCECB2004494E3 /* NeuroLens Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A95359206FC8A5500DB9ABB /* fmri_cluster_correlation.h */,
+				8A95359306FC8A5500DB9ABB /* fmri_cluster_correlation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7BB6D6312A5996E0029D384 /* vecLib.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* fmri_cluster_correlation.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1AA30606FCECB2004494E3 /* NeuroLens Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A98C8D30A1CD8590040A400 /* NLMatrix.framework */,
+				8A98C8D40A1CD8590040A400 /* NLPlugin.framework */,
+			);
+			name = "NeuroLens Frameworks";
+			sourceTree = "<group>";
+		};
+		8A97B00307030686005D8195 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				8A97B006070306A5005D8195 /* ReadMe.rtf */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		8AC7180906FD262800AE869B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7180D06FD263B00AE869B /* fmri_cluster_correlation_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8AC9C33006FE60D3002BF388 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A4874340701172B00DD4D4E /* fmri_cluster_correlation Help */,
+				8A85F1D106FE5F3000A58E61 /* fmri_cluster_correlation.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* fmri_cluster_correlation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3B2F760A1CD6F300C61EBC /* Build configuration list for PBXNativeTarget "fmri_cluster_correlation" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				8AA25D0106FE8CB600BEE6B2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fmri_cluster_correlation;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = fmri_cluster_correlation;
+			productReference = 8D5B49B6048680CD000E48DA /* fmri_cluster_correlation.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 8A3B2F7A0A1CD6F300C61EBC /* Build configuration list for PBXProject "fmri_cluster_correlation" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* fmri_cluster_correlation */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* fmri_cluster_correlation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				8A95359406FC8A5500DB9ABB /* fmri_cluster_correlation.h in Resources */,
+				8AC7180E06FD263B00AE869B /* fmri_cluster_correlation_Prefix.pch in Resources */,
+				8A85F1D306FE5F3000A58E61 /* fmri_cluster_correlation.nib in Resources */,
+				8A4874450701172B00DD4D4E /* fmri_cluster_correlation Help in Resources */,
+				8A97B007070306A5005D8195 /* ReadMe.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A95359506FC8A5500DB9ABB /* fmri_cluster_correlation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A4874340701172B00DD4D4E /* fmri_cluster_correlation Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4874350701172B00DD4D4E /* English */,
+			);
+			name = "fmri_cluster_correlation Help";
+			sourceTree = "<group>";
+		};
+		8A85F1D106FE5F3000A58E61 /* fmri_cluster_correlation.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A85F1D206FE5F3000A58E61 /* English */,
+			);
+			name = fmri_cluster_correlation.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A3B2F770A1CD6F300C61EBC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$SRCROOT\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = fmri_cluster_correlation_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/NeuroLens/PlugIns";
+				PRODUCT_NAME = fmri_cluster_correlation;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		8A3B2F780A1CD6F300C61EBC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$SRCROOT\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = fmri_cluster_correlation_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/NeuroLens/PlugIns";
+				PRODUCT_NAME = fmri_cluster_correlation;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		8A3B2F790A1CD6F300C61EBC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$SRCROOT\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = fmri_cluster_correlation_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/NeuroLens/PlugIns";
+				PRODUCT_NAME = fmri_cluster_correlation;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		8A3B2F7B0A1CD6F300C61EBC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = 4.2;
+			};
+			name = Development;
+		};
+		8A3B2F7C0A1CD6F300C61EBC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+			};
+			name = Deployment;
+		};
+		8A3B2F7D0A1CD6F300C61EBC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A3B2F760A1CD6F300C61EBC /* Build configuration list for PBXNativeTarget "fmri_cluster_correlation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3B2F770A1CD6F300C61EBC /* Development */,
+				8A3B2F780A1CD6F300C61EBC /* Deployment */,
+				8A3B2F790A1CD6F300C61EBC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		8A3B2F7A0A1CD6F300C61EBC /* Build configuration list for PBXProject "fmri_cluster_correlation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3B2F7B0A1CD6F300C61EBC /* Development */,
+				8A3B2F7C0A1CD6F300C61EBC /* Deployment */,
+				8A3B2F7D0A1CD6F300C61EBC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
